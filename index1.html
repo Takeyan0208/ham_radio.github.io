@@ -5,6 +5,22 @@
 <title>Jx1xxx official home page</title>
 </head>
 <body>
+
+<script>
+    function showClock() {
+      let nowTime = new Date();
+      let nowHour = nowTime.getHours();
+      let nowMin  = nowTime.getMinutes();
+      let nowSec  = nowTime.getSeconds();
+      let msg = "現在時刻：" + nowHour + ":" + nowMin + ":" + nowSec;
+      document.getElementById("realtime").innerHTML = msg;
+    }
+    setInterval('showClock()',1000);
+</script>
+
+
+
+
 <div style="text-align: center;"><h1>Home page of <i>Jx1xxx</i></h1></div>
 <br>
 <br>
