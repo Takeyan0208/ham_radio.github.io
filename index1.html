@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8" />
 <title>Jx1xxx official home page</title>
 </head>
-<body>
 
-<script type="text/javascript">
+
+  <script type="text/javascript">
     function LoadProc() {
       var now = new Date();
       var YearValue = now.getFullYear();
@@ -17,15 +17,15 @@
       var SecValue = now.getSeconds();
 
       var target = document.getElementById("DateTimeDisp");
-      target.innerHTML = YearValue + "年" + MonthValue + "月" + DateValue + "日" + HourValue + ":" + MinValue + ":" + SecValue;
+      target.innerHTML = YearValue + "-" + MonthValue + "-" + DateValue + " " + HourValue + ":" + MinValue + " JST";
     }
 
   </script>
 
-
+<body onload="LoadProc();">
 
 <div id="DateTimeDisp"></div>
-<div style="text-align: center;"><h1>Home page of <i>Jx1xxx</i></h1></div>
+<div style="text-align: center;"><h1>Official Homepage of <i>Jx1xxx</i></h1></div>
 <br>
 <br>
 
@@ -47,33 +47,37 @@
 <td></td>
 <td>JCC: 110109</td>
 </tr>
-<tr>
-<td></td>
-<td>Zone: 25</td>
-</tr>
-<tr>
-<td></td>
-<td>Grid locator: PM95TN</td>
-</tr>
-<tr>
-<td>OP:</td>
-<td>Takeshi (TOM)</td>
-</tr>
-<tr>
-<td>Band:</td>
-<td>7, 10, 14, 21, 28, 50 Mhz</td>
-</tr>
-<tr>
-<td>Mode:</td>
-<td>CW, SSB, FT8</td>
-</tr>
-<tr>
-<td>QSL:</td>
-<td>Sorry , no QSL card</td>
-</tr>
+  <tr>
+  <td></td>
+  <td>Zone: 25</td>
+  </tr>
+  <tr>
+  <td></td>
+  <td>Grid locator: PM95TN</td>
+  </tr>
+  <tr>
+  <td>OP:</td>
+  <td>Takeshi (TOM)</td>
+  </tr>
+  <tr>
+  <td>Band:</td>
+  <td>7, 10, 14, 21, 28, 50 Mhz</td>
+  </tr>
+  <tr>
+  <td>Mode:</td>
+  <td>CW, SSB, FT8</td>
+  </tr>
+  <tr>
+  <td>QSL:</td>
+  <td>Sorry , no QSL card</td>
+  </tr>
 </table>
 </h2>
 
-<img src="index_html_1e4ac42c.jpg" width="1024" height="768" alt="">
+<div style="text-align: center;"><img src="index_html_1e4ac42c.jpg" width="1024" height="768" alt=""></div>
+
+
+
+
 </body>
 </html>
